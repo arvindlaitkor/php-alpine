@@ -72,7 +72,7 @@ RUN apk add --update --no-cache bash \
 				apache2-utils
 
 RUN apk add --update --no-cache imagemagick-dev \
-				ffmpeg
+				ffmpeg gimp
 #RUN ln -s /usr/bin/php$PHP_VERSION /usr/bin/php
 RUN curl -sS https://getcomposer.org/installer | php$PHP_VERSION -- --install-dir=/usr/bin --filename=composer 
 
