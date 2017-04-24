@@ -1,4 +1,4 @@
-FROM alpine:3.$PHP_VERSION
+FROM alpine:3.5
 MAINTAINER Arvind Rawat <arvindr226@gmail.com>
 ENV PHP_VERSION 5 
 RUN apk add --update --no-cache bash \
